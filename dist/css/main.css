@@ -1,3 +1,23 @@
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  transition: all .8s ease-out; }
+  .menu-btn .btn-line {
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background-color: #fff;
+    transition: all .3s ease-out; }
+  .menu-btn.close .btn-line:nth-child(1) {
+    transform: translateY(0.5rem) rotate(45deg); }
+  .menu-btn.close .btn-line:nth-child(2) {
+    transform: scale(0); }
+  .menu-btn.close .btn-line:nth-child(3) {
+    transform: translateY(-0.5rem) rotate(-45deg); }
+
 *,
 *::before,
 *::after {
